@@ -1,3 +1,57 @@
 *{
     font-family: 'Courier New', Courier, monospace;
 }
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+
+.header{
+    display: flex;
+    align-items: flex-start;
+}
+
+.headerlogo{
+    display: flex;
+    justify-content: left;
+    margin-right: auto;
+}
+
+.headerlinks{
+    display: flex;
+    justify-content: right;
+}
+
+.splash{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.four-pics{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    gap: 40px;
+}
+
+.four-pics > img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.four-pics > p{
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+}
+
+.action{
+    display: flex;
+}
