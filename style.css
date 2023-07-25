@@ -40,29 +40,53 @@ li{
     background-color: #1F2937;
 }
 
-.four-pics{
+.splash-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.splash-img{
+    display: flex;
+    align-items: center;
+}
+
+/* .four-pics{
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 40px;
+} */
+
+.four-pics-col{
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 
-.four-pics-imgs{
+.pic-and-img{
     display: flex;
-    justify-content: center;  
-    align-self: flex-start;
-}
-
-.four-pics-text{
-    display: flex;
-    justify-content: center;  
-    align-self: flex-end;
+    align-items: flex
 }
 
 .quote{
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+}
+
+.the-quote{
+    display: flex;
+    margin: 3% 20% 0 20%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.de-quotee{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25%;
 }
 
 .action{
@@ -82,6 +106,11 @@ li{
     border-radius: 5px;
     background-color: #3882f6;
     border-color: #f9faf8;
+    border-style: double;
+    margin:5%;
+    padding: 0 5%;
+    color: #f9faf8;
+    font-size: 18px;
 }
 
 .copyright{
