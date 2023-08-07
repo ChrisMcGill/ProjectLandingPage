@@ -50,22 +50,27 @@ li{
     align-items: center;
 }
 
-/* .four-pics{
+.pic-container{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 40px;
-} */
-
-.four-pics-col{
-    display: flex;
-    align-self: center;
-    justify-content: center;
 }
 
-.pic-and-img{
+.random-info{
+    display: flex;
+}
+
+.four-pics-col{
+    display: inline-flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.pic-img{
     display: flex;
     align-items: flex
+}
+
+.pic-text{
+    display: flex;
 }
 
 .quote{
